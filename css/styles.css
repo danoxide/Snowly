@@ -172,6 +172,9 @@ main article p:first-of-type {
   color: #aaaaaa;
   font-weight: 700;
 }
+main article p > img {
+  width: 100%;
+}
 main article h1,
 main article h2,
 main article h3 {
