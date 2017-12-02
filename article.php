@@ -13,7 +13,7 @@
 				</div>
 		</header>
 
-		<?php echo article_markdown(); ?>
+		<?php echo article_html(); ?>
 	</article>
 
 	<?php if(has_comments()): ?>

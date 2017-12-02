@@ -11,7 +11,7 @@
 				</div>
 			</header>
 
-			<?php echo split_content(article_markdown()); ?>
+			<?php echo article_html(); ?>
 			<p><a href="<?php echo article_url(); ?>" rel="article">Czytaj dalej</a></p>
 		</article>
 		<?php endwhile; ?>
