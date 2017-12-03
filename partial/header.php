@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Montserrat:400,700">
 	<link rel="stylesheet" type="text/css" href="<?php echo theme_url('css/bootstrap.min.css'); ?>">
 	<link rel="stylesheet" type="text/css" href="<?php echo theme_url('css/styles.css'); ?>">
-	<title><?php echo page_title("Page can't be fount."); ?> - <?php echo site_name(); ?></title>
+	<title><?php echo page_title("Page can't be found."); ?> - <?php echo site_name(); ?></title>
 </head>
 <body>
 
