@@ -2,7 +2,7 @@
 	<div class="container-wide">
 		<div class="row">
 			<div class="col-md-5">
-				<p>Copyrights by <?php echo site_name(); ?>. Theme by <a href="http://danoxide.pl">Piotr Filipek</a>.</p>
+				<p>Copyrights by <?php echo site_name(); ?>. Theme by <a href="https://piotrfilipek.com.pl">Piotr Filipek</a>.</p>
 			</div>
 
 			<div class="col-md-7">
