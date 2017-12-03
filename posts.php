@@ -12,15 +12,15 @@
 			</header>
 
 			<?php echo article_html(); ?>
-			<p><a href="<?php echo article_url(); ?>" rel="article">Czytaj dalej</a></p>
+			<p><a href="<?php echo article_url(); ?>" rel="article">Read more</a></p>
 		</article>
 		<?php endwhile; ?>
 	<?php endif; ?>
 
 	<?php if(has_pagination()): ?>
 	<ul class="pager">
-		<li class="previous disabled"><a href="#">&larr; Starsze</a></li>
-		<li class="next"><a href="#">Nowsze &rarr;</a></li>
+		<li class="previous disabled"><a href="#">&larr; Older</a></li>
+		<li class="next"><a href="#">Newer &rarr;</a></li>
 	</ul>
 	<?php endif; ?>
 </main>
