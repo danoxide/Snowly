@@ -1,11 +1,15 @@
 $(document).ready(function(){
-  var searchWindow = $('#search');
-  $('a[data-target=#search]').click(function(event){
+  $('a[data-target="#search"]').click(function(event){
     event.preventDefault();
-    searchWindow.css('display', 'table');
+    $('#search').css('display', 'table').animate({ 'opacity' : 1 });
   });
 
   $('button.close').click(function(){
-    $('#search').css('display', 'none');
+  	event.preventDefault();
+    $('#search').animate({ 'opacity' : 0 }, {
+    	done : function(){
+    		$(this).css('display', 'none');
+    	}
+    });
   });
 });
